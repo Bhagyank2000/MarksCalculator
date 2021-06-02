@@ -1,0 +1,70 @@
+.container h1 {
+	text-align: center;
+	color:wheat;
+}
+  
+body {
+  background:wheat;
+  font-size: 12px;
+}
+
+.background {
+  display: flex;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 0 1 700px;
+  margin: auto;
+  
+}
+
+.screen {
+  position: relative;
+  background: #574e4e;
+  border-radius: 15px;
+}
+
+
+.screen-body-item {
+ flex: 1;
+  padding: 50px;
+}
+
+
+.app-form-group {
+  margin-bottom: 15px;
+}
+
+
+.app-form-control {
+  width: 100%;
+  padding: 8px ;
+  color: rgb(41, 38, 38);
+  font-size: 14px;
+  text-transform: uppercase;
+  outline: none;
+  transition: border-color .2s;
+}
+
+.app-form-control::placeholder {
+  color: rgb(180, 151, 151);
+  font-size: smaller;
+}
+
+
+.app-form-group label {
+	width: 40px;
+	font-size: 20px;
+  color:wheat;
+}
+
+.showdata{
+  text-align: center;
+  color: wheat;
+  font-size: 1.2rem;
+  
+  padding-bottom: 10px;
+}
+
+  
